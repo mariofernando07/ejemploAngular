@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <title>AllNexus</title>
+        <script src="node_modules/es6-shim/es6-sham.js"></script>
+        <script src="node_modules/zone.js/dist/zone.js"></script>
+        <script src="node_modules/reflect-metadata/Reflect.js"></script>
+        <script src="node_modules/systemjs/dist/system.src.js"></script>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+    </head>
+    <body>
+        <script src="resources/js/systemjs.config.js"></script>
+        <script>
+            System.import('app.js').then(null, console.error.bind(console));
+        </script>
+
+        <init-app></init-app>
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    </body>
+</html>
